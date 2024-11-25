@@ -9,6 +9,10 @@ public class Variables {
         //or
         System.out.print("My variable has: ");
         System.out.println(var);                //can be like this too
+
+        //we can also change the variable like
+        var = 1000;
+        System.out.println("My variable has: "+ var);
     }
 
 }
