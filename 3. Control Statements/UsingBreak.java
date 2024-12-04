@@ -57,7 +57,7 @@ public class UsingBreak {
         }
         System.out.println();
 
-        //using label after for loop
+        //2. using label after for loop
         for (int x = 0; x <= 5; x++) {
             stop2:
             {
@@ -66,8 +66,6 @@ public class UsingBreak {
                     System.out.println("x and y: " + x + " " + y);
                 }
             }
-
         }
-
     }
 }

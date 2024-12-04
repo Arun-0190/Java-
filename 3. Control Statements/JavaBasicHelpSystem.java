@@ -12,11 +12,18 @@ public class JavaBasicHelpSystem {
         System.out.println("\t3. while loop Syntax");
         System.out.println("\t4. do-while loop Syntax");
         System.out.println("\t5. switch case Syntax");
+        System.out.println("\t6. break Syntax");
+        System.out.println("\t7. continue Syntax");
+        System.out.println("\tQ. quit");
         System.out.print("\t Choose any one: ");
 
         char c = (char) System.in.read();
 
         switch(c){
+            case 'Q':
+                System.out.println("Quitting...");
+                break;
+
             case '1':
                 System.out.println("The if syntax: \n");
                 System.out.println("if(condition){");
@@ -57,6 +64,16 @@ public class JavaBasicHelpSystem {
                 System.out.println("\t//different case.....");
                 System.out.println("\tIf want then default case too.");
                 System.out.println("}");
+                break;
+
+            case '6':
+                System.out.println("The break syntax:\n");
+                System.out.println("break; or break label;");
+                break;
+
+            case '7':
+                System.out.println("The continue syntax:\n");
+                System.out.println("continue; or continue label;");
                 break;
 
             default:
