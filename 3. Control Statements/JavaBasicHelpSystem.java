@@ -9,7 +9,9 @@ public class JavaBasicHelpSystem {
         System.out.println("Help Desk: ");
         System.out.println("\t1. if Syntax");
         System.out.println("\t2. for loop Syntax");
-        System.out.println("\t3. switch case Syntax");
+        System.out.println("\t3. while loop Syntax");
+        System.out.println("\t4. do-while loop Syntax");
+        System.out.println("\t5. switch case Syntax");
         System.out.print("\t Choose any one: ");
 
         char c = (char) System.in.read();
@@ -33,6 +35,20 @@ public class JavaBasicHelpSystem {
                 break;
 
             case '3':
+                System.out.println("The while loop syntax: \n");
+                System.out.println("while(given condition is true){");
+                System.out.println("\t//task to perform if condition is true...");
+                System.out.println("}");
+                break;
+
+            case '4':
+                System.out.println("The do-while loop syntax: \n");
+                System.out.println("do {");
+                System.out.println("\ttasks to perform...");
+                System.out.println("} while (condition);");
+                break;
+
+            case '5':
                 System.out.println("The traditional switch case syntax:\n");
                 System.out.println("switch(expression) {");
                 System.out.println("\t case constant:");
