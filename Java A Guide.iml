@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/001. Java Fundamentals" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/002. Operators" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/003. Control Statements" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/004. Classes, Objects and Methods" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
