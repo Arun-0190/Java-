@@ -23,8 +23,7 @@ class Help{
     //Checking if the given value is valid according to the given options or not
     boolean isValid(int ch){
 
-        if(ch < '1' | ch > '7' & ch != 'Q') return false;
-        else return true;
+        return !(ch < '1' | ch > '7' & ch != 'Q');
 
     }
 
