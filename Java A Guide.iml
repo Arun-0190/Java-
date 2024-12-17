@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/002. Operators" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/003. Control Statements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/004. Classes, Objects and Methods" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/005. More Data Structures &amp; Operators" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
