@@ -10,6 +10,15 @@ public class Substr {
         System.out.println("Original: "+ original);
         System.out.println("Substring: "+substr);
 
+        //using text blocks
+        String str = """
+                Hii, my name is Arun
+                And am coding in Java
+                This is a text block.
+                """;
+
+        System.out.println(str);
+
     }
 
 }
