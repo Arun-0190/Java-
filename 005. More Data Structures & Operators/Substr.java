@@ -11,5 +11,5 @@ public class Substr {
         System.out.println("Substring: "+substr);
 
     }
-    
+
 }
