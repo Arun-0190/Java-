@@ -19,6 +19,13 @@ class TypeInference2 {
         mc.set_i(69);
         System.out.println("Now current value of i in mc is: "+mc.get_i());
 
+        //using var in a for loop
+        int[] nums = {1,2,3,4,5,67};
+
+        for(var v: nums){
+            System.out.print(v+"  ");
+        }
+
     }
 
 }
