@@ -29,6 +29,15 @@ public class TypeInference {
         //var counter;                  //invalid
 
 
+        //Using var with reference types like strings and substrings
+        var string = "Arun is here.";
+        var substring = string.substring(0, 4);
+
+        System.out.println("String is: "+string);
+        System.out.println("Substring is: "+substring);
+
+
+
     }
 
 }
