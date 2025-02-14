@@ -2,7 +2,7 @@
 class FailSoftArray{
 
     private int[] a;            //reference to an array
-    private int errval;         //value to return if get() fails
+    private final int errval;         //value to return if get() fails
     public int length;
     /*
     Constructing an array given it's size and the value to return ig get() fails
